@@ -1,8 +1,8 @@
 (define-module (zellij-binary-musl)
-  #:use-module (guix licenses)
   #:use-module (guix packages)
   #:use-module (guix build-system copy)
-  #:use-module (guix download))
+  #:use-module (guix download)
+  #:use-module ((guix licenses) #:prefix license:))
 
 (define-public zellij-binary-musl
   (package
@@ -20,5 +20,5 @@
   (home-page "https://zellij.dev/")
   (synopsis "A terminal workspace with batteries included")
   (description "Zellij is a terminal workspace. It has the base functionality of a terminal multiplexer (similar to tmux or screen) but includes many built-in features that would allow users to extend it and create their own personalized environment..")
-  (license gpl3+))
+  (license license:expat))
 )
