@@ -10,7 +10,7 @@
   #:use-module (guix build utils)
   #:use-module ((guix licenses) #:prefix license:))
 
-(define-public rust-libssh2-sys-0.3.0
+(define-public rust-libssh2-sys
   (package
     (name "rust-libssh2-sys")
     (version "0.3.0")
