@@ -4,7 +4,7 @@
   #:use-module (guix build-system copy)
   #:use-module (guix download))
 
-(define-public zellij-binary-musl
+(define-public zellij-binary-musl-0.39.2
 (package
   (name "zellij-binary-musl")
   (version "0.39.2")
